@@ -138,7 +138,7 @@ hovering:
 
 ```html
 <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
-<script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+<script src="https://unpkg.com/aframe-event-set-component@5.x.x/dist/aframe-event-set-component.min.js"></script>
 <body>
   <a-scene>
     <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"
@@ -158,7 +158,7 @@ over:
 
 ```html
 <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
-<script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+<script src="https://unpkg.com/aframe-event-set-component@5.x.x/dist/aframe-event-set-component.min.js"></script>
 <body>
   <a-scene>
     <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"
@@ -181,7 +181,7 @@ properties using A-Frame component dot syntax (i.e.,
 
 ```html
 <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
-<script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+<script src="https://unpkg.com/aframe-event-set-component@5.x.x/dist/aframe-event-set-component.min.js"></script>
 <body>
   <a-scene>
     <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"
@@ -406,8 +406,8 @@ Touch controllers by:
 To add the hand-controls component:
 
 ```html
-<a-entity hand-controls="left"></a-entity>
-<a-entity hand-controls="right"></a-entity>
+<a-entity hand-controls="hand: left"></a-entity>
+<a-entity hand-controls="hand: right"></a-entity>
 ```
 
 Unfortunately, there is not yet a 3DoF controller component that abstracts well
@@ -589,8 +589,8 @@ The [documentation for super-hands][superhandsdocs] and
 
 ### Other Examples
 
-[aframe-extras]: https://github.com/donmccurdy/aframe-extras
-[aframe-physics]: https://github.com/donmccurdy/aframe-physics-system
+[aframe-extras]: https://github.com/c-frame/aframe-extras
+[aframe-physics]: https://github.com/c-frame/aframe-physics-system
 
 Other examples to look at include:
 
